@@ -48,7 +48,7 @@ main{
 }
 .mensaje{
     background: white;
-    background-image: url("file:///D:/challengue1/imagenes/Mu%C3%B1eco.png");
+    background-image: url("/imagenes/Muñeco.png");
     background-repeat: no-repeat;
     background-position: center;
     border: none;
