@@ -1,0 +1,111 @@
+*{
+    background: #F3F5FC;
+    font-family: initial;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 150%;
+}
+
+.logo{
+    padding-top: 10px;
+    margin-left: 100px;
+    width: 10%;
+}
+main{
+    display: flex;
+    margin-bottom: 50;
+    margin-left: 80px;    
+}
+.s1{
+    margin-left: 100px;
+}
+.text-area{
+    border: none;
+    color: #0A3871;
+    margin-top: 20px;
+    text-transform: lowercase;
+}
+::placeholder {color: #0A3871;}
+.text-area:focus {
+    outline: none;
+}
+
+.logoinfo{
+    align-items: baseline;
+    display: flex;
+    margin-top: 50px;
+}    
+    
+.alerta{
+    position: relative;
+    height: 18px;
+}
+
+.informcion{
+    color: #9a9da8;
+    font-size: 16px;
+    margin-left: 8px;
+}
+.mensaje{
+    background: white;
+    background-image: url("file:///D:/challengue1/imagenes/Mu%C3%B1eco.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    border: none;
+    border-radius: 24px;
+    color: #0A3871;
+    margin-left: 98px;
+    margin-top: 5px;
+    padding-left: 40px;
+    position: fixed;
+}
+
+
+.mensaje:focus{
+    outline: none;
+}
+.botones{
+    display: flex;
+    margin-top: 18px;
+    
+}
+.btn-encriptar{
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    
+}
+
+.btn-desencriptar{
+    background-color: #9a9da8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 45px;
+    width: 200px;
+    font-size: 20px;
+    margin-left: 50px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+.btm-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    background-color: transparent;
+    height: 45px;
+    margin-left: 100px;
+    margin-top:520px;
+    position:absolute;
+    width: 400px;
+    font-size: 20px;
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+}
+
